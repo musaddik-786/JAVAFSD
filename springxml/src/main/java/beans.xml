@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="res1" class="com.spring.springxml.Result">
+    <property name="Marks" value="100" />
+    <property name="Remarks" value="Pass" />
+    
+    </bean>
+    
+    
+    <bean id="stud1" class="com.spring.springxml.Student">
+        <property name="roll_no" value="101" />
+        <property name="Name" value="Ajay" />
+        <property name="fee" value="200" />
+        <property name="res" ref="res1"/> 
+        
+        
+    </bean>
+    
+<bean id="book1" class="com.spring.springxml.Book">
+        <constructor-arg index="0" value="101"/>
+        <constructor-arg index="1" value="Spring in Action"/>
+        <constructor-arg index="2" value="45.0"/>
+    </bean>
+    
+</beans>
