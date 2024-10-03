@@ -1,0 +1,32 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: calc(100vh - 100px);
+  }
+  
+  .container {
+    width: 80%; 
+    height: 45vh; 
+    margin: 20px 0; 
+    border-radius: 10px; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 24px; 
+  }
+  
+  .first-container {
+    background-image: url('../../Images/container1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+  
+  .second-container {
+    background-image: url('../../Images/container1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+  
